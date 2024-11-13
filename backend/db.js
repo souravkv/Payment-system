@@ -1,9 +1,10 @@
 //const {mongoose} = require('mongoose')
-
+// mongodb+srv://zourv:<db_password>@cluster0.07p8rrk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://zourv:1CzzGtZUocFeuBmq@cluster0.07p8rrk.mongodb.net/paytmm')
+// mongoose.connect('mongodb+srv://zourv:1CzzGtZUocFeuBmq@cluster0.07p8rrk.mongodb.net/paytmm')
+mongoose.connect('mongodb+srv://zourv:1CzzGtZUocFeuBmq@cluster0.07p8rrk.mongodb.net/payytm')
 
 
 const   UserSchema = new mongoose.Schema({
