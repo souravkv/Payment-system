@@ -6,7 +6,9 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [ nodePolyfills(),react()],
-  Buffer: "buffer"
+  Buffer: "buffer",build: {
+    outDir: 'dist'
+  }
 })
 
 
